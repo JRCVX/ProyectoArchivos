@@ -50,9 +50,9 @@
             // 
             this.picLogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picLogo.Image = global::ProyectoArchivos.Properties.Resources.espoch;
-            this.picLogo.Location = new System.Drawing.Point(125, 90);
+            this.picLogo.Location = new System.Drawing.Point(120, 74);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(140, 140);
+            this.picLogo.Size = new System.Drawing.Size(154, 147);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picLogo.TabIndex = 1;
             this.picLogo.TabStop = false;
@@ -108,7 +108,7 @@
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -123,7 +123,7 @@
             this.Font = new System.Drawing.Font("Papyrus", 12F, System.Drawing.FontStyle.Bold);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "🔐 Login - ESPOCH";
             this.Load += new System.EventHandler(this.FrmLogin_Load);
